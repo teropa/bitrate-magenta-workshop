@@ -8,5 +8,6 @@ module.exports = {
   },
   devServer: {
     contentBase: "./dist",
+    disableHostCheck: true,
   },
 };
