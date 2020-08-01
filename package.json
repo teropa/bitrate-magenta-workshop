@@ -1,0 +1,16 @@
+{
+  "name": "bitrate-magenta-workshop",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Tero Parviainen <tero@teropa.info>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --open"
+  }
+}
